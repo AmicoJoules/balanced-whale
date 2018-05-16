@@ -1,0 +1,28 @@
+{
+  "name": "balanced-whale",
+  "version": "0.0.1",
+  "description": "A simple echo service intended to be used with a load balancer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmicoJoules/balanced-whale.git"
+  },
+  "keywords": [
+    "docker",
+    "balancer"
+  ],
+  "author": "Joules",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmicoJoules/balanced-whale/issues"
+  },
+  "homepage": "https://github.com/AmicoJoules/balanced-whale#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "local-ip": "^2.0.0"
+  }
+}
